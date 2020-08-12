@@ -1,0 +1,14 @@
+.cover__overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding-bottom: calc(100%/1.6);
+	z-index: -1;
+	background: #2A2C2F;
+	opacity: 0.3;
+}
+
+.cover__overlay:hover {
+	opacity: 1;
+}
